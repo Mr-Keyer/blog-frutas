@@ -1,0 +1,107 @@
+/* ===== RESET ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ===== ROLAGEM SUAVE ===== */
+html {
+  scroll-behavior: smooth;
+}
+
+/* ===== CORPO ===== */
+body {
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  background: linear-gradient(135deg, #f5f7fa, #e8f5e9);
+  color: #333;
+  line-height: 1.7;
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+/* ===== TÍTULOS ===== */
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #2e7d32;
+}
+
+h2 {
+  margin-top: 40px;
+  margin-bottom: 10px;
+  color: #388e3c;
+}
+
+h3 {
+  margin-top: 30px;
+  color: #43a047;
+}
+
+h4 {
+  margin-top: 40px;
+  font-weight: normal;
+  text-align: center;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+}
+
+/* ===== PARÁGRAFOS ===== */
+p {
+  margin-bottom: 15px;
+  font-size: 1.05rem;
+}
+
+/* ===== LISTAS ===== */
+ul {
+  margin: 10px 0 20px 25px;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+/* ===== IMAGENS ===== */
+img {
+  display: block;
+  margin: 30px auto;
+  max-width: 100%;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+img:hover {
+  transform: scale(1.03);
+  box-shadow: 0 15px 40px rgba(0,0,0,0.25);
+}
+
+/* ===== FOOTER ===== */
+footer {
+  margin-top: 80px;
+  padding: 30px 0;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #666;
+  border-top: 1px solid #ddd;
+}
+
+/* ===== ANIMAÇÃO SUAVE AO CARREGAR ===== */
+body {
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
